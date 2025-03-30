@@ -5,7 +5,7 @@
 
 ---
 
-## ~={red}Objective: Get DOM XSS=~
+## Objective: Get DOM XSS
 
 ### Manual Method
 

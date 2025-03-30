@@ -5,8 +5,8 @@
 
 ---
 
-## ~={red}Objective: Get DOM XSS
-=~
+## Objective: Get DOM XSS
+
 ### Manual method
 
 ![Pasted image 20250329183244.png](/img/user/Images/Pasted%20image%2020250329183244.png)
