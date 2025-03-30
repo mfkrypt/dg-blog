@@ -61,6 +61,8 @@ Now look at the **Elements** tab and we notice that the `script` elements has be
 
 ![Pasted image 20250329233324.png](/img/user/Images/Pasted%20image%2020250329233324.png)
 
+### Exploit
+
 Now we can simply craft an exploit to call `alert` using `data:`
 
 ```

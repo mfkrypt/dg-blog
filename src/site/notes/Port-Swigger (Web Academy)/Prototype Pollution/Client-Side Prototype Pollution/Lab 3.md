@@ -41,6 +41,8 @@ But the payload is URL-encoded, we can check using Cyberchef
 
 ![Pasted image 20250331001409.png](/img/user/Images/Pasted%20image%2020250331001409.png)
 
+### Exploit
+
 Only change the alert to a `document.cookie` and the exploit is set.
 
 ```

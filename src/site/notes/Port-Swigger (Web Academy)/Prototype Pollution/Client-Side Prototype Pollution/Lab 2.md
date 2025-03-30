@@ -77,6 +77,8 @@ let a = manager.sequence || 1;
     manager.sequence = a + 1;
 ```
 
+### Exploit
+
 To fix this syntax we can append `-` to our exploit
 
 ```
