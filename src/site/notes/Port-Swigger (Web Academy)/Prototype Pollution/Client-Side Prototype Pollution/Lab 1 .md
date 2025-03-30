@@ -46,9 +46,11 @@ async function searchLogger() {
 }
 ```
 
+
 So basically what is happening is when the property `transport_url` is not **explictly** defined, Javascript looks up the prototype of the object and tries to use `Object.prototype` but we already polluted that earlier with `__proto__[foo]=bar`.
 
 We test the gadget with a random value
+
 ```
 /?__proto__[transport_url] = foo
 ```
@@ -74,7 +76,6 @@ We will be using Burpsuite's DOM Invader which is built-in Burpsuite's browser. 
 ![Pasted image 20250330013725.png](/img/user/Images/Pasted%20image%2020250330013725.png)
 
 ![Pasted image 20250330013828.png](/img/user/Images/Pasted%20image%2020250330013828.png)
-
 
 Now, get to reload the page and check DevTools **DOM Invader** tab
 
