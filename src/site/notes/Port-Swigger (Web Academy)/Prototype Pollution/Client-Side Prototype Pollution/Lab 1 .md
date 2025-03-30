@@ -52,7 +52,7 @@ So basically what is happening is when the property `transport_url` is not **exp
 We test the gadget with a random value
 
 ```
-/?__proto__[transport_url] = foo
+/?__proto__[transport_url] = bar
 ```
 
 ![Pasted image 20250329233224.png](/img/user/Images/Pasted%20image%2020250329233224.png)
