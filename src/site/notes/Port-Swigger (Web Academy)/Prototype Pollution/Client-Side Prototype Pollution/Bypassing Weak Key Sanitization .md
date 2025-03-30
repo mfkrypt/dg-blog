@@ -8,4 +8,4 @@ Instead of the normal exploit:
 /?__proto__.gadget=payload
 ```
 
-
+If the sanitization process only strips the string `__proto__` only once and not recursively
