@@ -3,6 +3,8 @@
 ---
 
 
+---
+
 Either way, if an application returns properties in a response, especially in a POST or PUT request that submits JSON data, they can be prime targets for Server-Side Prototype Pollution. In this case, we are polluting the global `Object.prototype`
 
 ```
