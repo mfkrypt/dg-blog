@@ -7,7 +7,7 @@
 ## Objective: Privilege Escalation
 
 
-![[Pasted image 20250401003722.png\|Pasted image 20250401003722.png]]
+![Pasted image 20250401004337.png](/img/user/Images/Pasted%20image%2020250401004337.png)
 We login using the given credentials:
 
 `wiener:peter`
