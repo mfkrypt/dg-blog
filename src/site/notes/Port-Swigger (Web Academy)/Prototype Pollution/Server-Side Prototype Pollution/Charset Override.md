@@ -36,9 +36,7 @@ If you can find an object whose properties are visible in a response, you can us
 1. Add an arbitrary UTF-7 encoded string to a property that's reflected in a response. For example, `foo` in UTF-7 is `+AGYAbwBv-`.
     
 ```json
-	{ 
-		"sessionId":"0123456789", 
-		"username":"wiener", 
+	{  
 		"role":"+AGYAbwBv-" 
 	}
 ```
@@ -49,8 +47,6 @@ If you can find an object whose properties are visible in a response, you can us
     
 ```json
 	{ 
-		"sessionId":"0123456789", 
-		"username":"wiener", 
 		"role":"+AGYAbwBv-", 
 		"__proto__":{ 
 			"content-type": "application/json; charset=utf-7" 

