@@ -40,3 +40,9 @@ if (typeof status !== 'number' ||
 	}
 ```
 
+We can attempt to pollute the prototype using this:
+
+```
+Object.prototype.status = 418;
+```
+
