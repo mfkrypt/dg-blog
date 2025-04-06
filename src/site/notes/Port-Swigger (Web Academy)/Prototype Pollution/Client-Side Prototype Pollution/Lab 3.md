@@ -15,7 +15,7 @@ In this lab, we are recommended to use DOM Invader as it saves us time and effor
 
 ![Pasted image 20250330233836.png](/img/user/Images/Pasted%20image%2020250330233836.png)
 
-And we get the alert here after exploiting the exploiting the sink which is `hitCallback`
+And we get the alert here after exploiting the exploiting the gadget which is `hitCallback`
 
 ![Pasted image 20250331001017.png](/img/user/Images/Pasted%20image%2020250331001017.png)
 
