@@ -1,4 +1,4 @@
 # Digital Garden
 
-Config files for my Digital Garden blog
+Config files for my blog website
 
